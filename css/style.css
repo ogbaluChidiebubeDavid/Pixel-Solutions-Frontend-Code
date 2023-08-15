@@ -128,7 +128,11 @@ nav .fas{
 
 body .main-content{
     padding: 77px 0 0;
+<<<<<<< HEAD
     background: url(/images/black-bg.png);
+=======
+    background-image: url(/images/black-bg.png);
+>>>>>>> 670ff5c8204a538582a58e2a76cec1405b514c55
     background-size: cover;
     }
 
@@ -361,7 +365,12 @@ p.p-box {
 .about-col-1 {
     flex-basis: 40%;
     position: relative;
+<<<<<<< HEAD
     background: url(/images/world.png) center no-repeat;
+=======
+    background-image: url(/images/world.png);
+    background-repeat: no-repeat;
+>>>>>>> 670ff5c8204a538582a58e2a76cec1405b514c55
     background-size: cover;
     padding: 30px 0;
 }
@@ -791,7 +800,7 @@ footer .flex:last-child a:hover{
         /* flex-wrap: wrap; */
     }
     .hero-img > img{
-        width: 70%;
+        width: 100%;
     }
     .hero-text:first-child{
         padding: 0 130px;
@@ -893,7 +902,7 @@ footer .flex:last-child a:hover{
 
     @media (max-width:599px){
         .hero-img > img{
-            width: 50%;
+            width: 70%;
         }
         .hero-text:first-child{
             padding: 0 25px;
