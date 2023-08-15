@@ -128,7 +128,7 @@ nav .fas{
 
 body .main-content{
     padding: 77px 0 0;
-    background: url(/images/black-bg-pix.png);
+    background: url(images/black-bg-pix.png);
     background-size: cover;
     }
 
@@ -365,7 +365,7 @@ p.p-box {
 .about-col-1 {
     flex-basis: 40%;
     position: relative;
-    background: url(/images/world-pix.png) center no-repeat;
+    background: url(images/world-pix.png) center no-repeat;
     background-size: cover;
     padding: 30px 0;
 }
