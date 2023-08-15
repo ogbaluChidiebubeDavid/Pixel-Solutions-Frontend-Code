@@ -128,7 +128,7 @@ nav .fas{
 
 body .main-content{
     padding: 77px 0 0;
-    background: url(images/black-bg.png);
+    background: url(/images/black-bg.png);
     background-size: cover;
     }
 
@@ -361,7 +361,7 @@ p.p-box {
 .about-col-1 {
     flex-basis: 40%;
     position: relative;
-    background: url(images/world.png) center no-repeat;
+    background: url(/images/world.png) center no-repeat;
     background-size: cover;
     padding: 30px 0;
 }
@@ -774,6 +774,9 @@ footer .flex:last-child a:hover{
 /***************************               FOOTER-END           ****************************/
 
 @media (max-width:900px){
+    .hero-text p{
+        text-align: justify;
+    }
     .row{
         flex-direction: column;
         padding: 0;
@@ -893,10 +896,10 @@ footer .flex:last-child a:hover{
             width: 50%;
         }
         .hero-text:first-child{
-            padding: 0 49px;
+            padding: 0 25px;
         }
         .hero-text p {
-            text-align: center;
+            text-align: justify;
         }
 
         .description {
@@ -950,6 +953,11 @@ footer .flex:last-child a:hover{
             
             footer fieldset input {
                 padding: 12px;
+            }
+        }
+        @media (max-width: 375px) {
+            .hero-text p{
+                text-align: center;
             }
         }
         @media (max-width: 360px) {
