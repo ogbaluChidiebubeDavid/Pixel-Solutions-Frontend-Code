@@ -788,7 +788,7 @@ footer .flex:last-child a:hover{
         /* flex-wrap: wrap; */
     }
     .hero-img > img{
-        width: 70%;
+        width: 100%;
     }
     .hero-text:first-child{
         padding: 0 130px;
@@ -890,7 +890,7 @@ footer .flex:last-child a:hover{
 
     @media (max-width:599px){
         .hero-img > img{
-            width: 50%;
+            width: 70%;
         }
         .hero-text:first-child{
             padding: 0 49px;
