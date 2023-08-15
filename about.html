@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About-us</title>
+    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--                                -----HEADER-----                      -->
+        <header id="header">
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <a href="#header"><img src="images/site logo.png" alt="pixel solution logo" /></a>
+                    </div>
+                    <ul id="sidemenu">
+                    <li><a href="index.html" class="nav-link" onclick="activateTab('home')">Home</a></li>
+                    <li><a href="about.html" class="nav-link active" onclick="activateTab('about')">About Us</a></li>
+                    <li><a href="contact.html" class="nav-link" onclick="activateTab('contact')">Contact Us</a></li>
+                    <li><a href="advert.html" class="nav-link" onclick="activateTab('advert')">Advertise With Us</a></li>
+                    <i class="fas fa-times closeMenu"></i>
+                    </ul>
+                    <i class="fas fa-bars openMenu"></i>
+                </nav>
+            </div>
+        </header>
+     <!--                                -----HEADER-END-----                      -->
+        <!--                                -----ABOUT-US-----                      -->
+        <aside id="about-us">
+            <section class="why-us">
+                <div class="row-2">
+                  <div class="text-side">
+                    <p class="why-us-txt"><span class="abt">w</span><span class='abt-us-txt'>hy choose us</span></p>
+                    <p class="description">Upon joining Pixel Solutions, users gain access to 
+                      a wealth of benefits to earn from, available for a nominal one-time registration fee of N4, 000."
+                    </p>
+                    <div class="txt-box">
+                      <div class="img-box">
+                        <img src="/images/verify-emoji.png" alt="verify-emoji" class="verify-img">
+                      </div>
+                      <div class="itxt-box">
+                        <h4 class="what-happens-nxt">What happens After registration?</h4>
+                        <p class="p-box">
+                          Immediately after registration, each user get N2500 welcome bonus cash back on his/her dashboard
+                           instantly! In addition to this, Pixel solution offers a robust earning structure which allows our members to get paid without referrals through Performing Daily Tasks such as daily login bonus N250, Sponsored post engagements N150, you can also get paid by writing blog post which upon approval earns you a whopping sum of N300. 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="img-side">
+                      <div class="card">
+                          <div class="img-div">
+                              <img src="/images/avartar.jpg" alt="user-dp" class="img-div-image">
+                          </div>
+                          <h4><b>Mitchelle Tracy</b></h4>
+                          <p class="user-email">mitchelletracy@gmail.com</p>
+                          <div class="overview">
+                              <h6 class="centered">Overview</h6>
+                              <p class="overview-p">Balance</p>
+                              <h6 class="left">₦30,709.75</h6>
+                              <a href="#">Deposit</a>
+                              <a href="#">Withdraw</a>
+                          </div>
+                        </div>
+                        <div class="card2">
+                        </div>
+                  </div>
+                </div>
+            </section>
+        </aside>
+    <!--                                -----MAIN-END-----                      -->
+    <div id="about">
+        <div class="container">
+            <div class="how-row">
+                <div class="about-col-1">
+                    <img src="/images/networking-removebg-preview.png" alt="unity image">
+                </div>
+                <div class="about-col-2">
+                  <h1 class="why-us-txt" style="text-align: center;"><span class="abt">H</span><span class='abt-us-txt'>ow it works</span></h1>
+                    <p class="how-description">Our members can earn whooping sums by exploring the various awesome earning routes currated by the Pixel Solutions Team. 
+                        The sweetest part is that you learn as you earn! As a registered member, you can earn via these routes; <br>
+                        <strong>Earning Routes</strong>
+                    
+                    </p>
+                        <div class="tab-titles">
+                            <p class="tab-links" onclick="opentab('skills')"> <img src="/images/games.svg" alt="" class="tab-img"> Bonus</p>
+                            <p class="tab-links active-link" onclick="opentab('experience')"><img src="/images/mentor.svg" alt="" class="tab-img">Referrals</p>
+                            <p class="tab-links" onclick="opentab('education')"><img src="/images/hand.svg" alt="" class="tab-img">ChatGpt</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <div class="skills-section">
+                                    <p>Our members can earn with Trivia games 
+                                        which are been uploaded on the site daily, you can earn by answering them correctly.
+                                    </p>
+                                    <p>Also immediately after registration, each user get 
+                                        N2500 welcome bonus cash back on his/her dashboard instantly.
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <p>You get paid a whooping N3000 per friend you invite to Pixel solutions with your refferal link after 
+                                a succesful registration, when your dowline refers you earn N350 per person and also when your 
+                                downlines downline refer, you earn N150 per person. You also get compensated with Lots of Amazing Prizes Ranging from Cash, Laptops(MacBook,Hp) iPhones,Samsungs,Sound Bars,Air condition,Pressing Iron, 
+                                TV and so on due to your participation/contributions in the massive growth of the platform
+                            </p>
+                            <p>
+                                Pixel solution also offers a robust earning structure which allows our members to get paid without 
+                                referrals through Performing Daily Tasks such as daily login bonus N250, Sponsored post engagements N150, 
+                                you can also get paid by writing blog post which upon approval earns you a whopping sum of N300.
+                            </p>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <p>
+                                You can also earn by interacting with chat gpt ai embedded on our website.
+                            </p>
+                            <p>
+                                Our customers can also upload their products or courses on Pixel Solutions and get buyers easily. 
+                                This is achievable with just a click! And boom you’re in on earning from the leads you will generate!
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer class="padding_4x">
+      <div class="flex">
+        <section class="flex-content padding_1x">
+          <h3>Top Products</h3>
+          <a href="#">Managed Website</a>
+          <a href="#">Manage Reputation</a>
+          <a href="#">Power Tools</a>
+          <a href="#">Marketing Service</a>
+        </section>
+        <section class="flex-content padding_1x">
+          <h3>Quick Links</h3>
+          <a href="#">Jobs</a>
+          <a href="#">Brand Assets</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Terms of Service</a>
+        </section>
+        <section class="flex-content padding_1x">
+          <h3>Features</h3>
+          <a href="#">Jobs</a>
+          <a href="#">Brand Assets</a>
+          <a href="#">Investor Relations</a>
+          <a href="#">Terms of Service</a>
+        </section>
+        <section class="flex-content padding_1x">
+          <h3>Resources</h3>
+          <a href="#">Guides</a>
+          <a href="#">Research</a>
+          <a href="#">Experts</a>
+          <a href="#">Agencies</a>
+        </section>
+        <section class="flex-content padding_1x">
+          <h3>Newsletter</h3>
+          <p>You can trust us. we only send promo offers,</p>
+          <fieldset class="fixed_flex">
+            <input type="email" name="newsletter" placeholder="Your Email Address">
+            <button class="btn btn_2">Subscribe</button>
+          </fieldset>
+        </section>
+      </div>
+      <div class="flex">
+        <section class="flex-content padding_1x">
+          <p>Copyright ©2023 All rights reserved || Pixel Solutions</p>
+        </section>
+        <section class="flex-content padding_1x">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-whatsapp"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+        </section>
+      </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
